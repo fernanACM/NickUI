@@ -1,0 +1,24 @@
+name: NickUI
+main: fernanACM\NickUI\Loader
+version: 1.0
+api: 4.0.0
+author: fernanACM
+website: https://github.com/fernanACM
+
+commands:
+  nick:
+    description: Open NickUI by fernanACM
+    permission: nick.acm
+
+  hide:
+    description: Open HideUI by fernanACM
+    permission: hide.acm
+
+permissions:
+  nick.acm:
+    default: op
+    description: /nick 
+    
+  hide.acm:
+    description: /hide
+    default: op
