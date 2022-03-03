@@ -1,0 +1,39 @@
+ # _   _   _          _      _   _   ___ 
+ #| \ | | (_)   ___  | | __ | | | | |_ _|
+ #|  \| | | |  / __| | |/ / | | | |  | | 
+ #| |\  | | | | (__  |   <  | |_| |  | | 
+ #|_| \_| |_|  \___| |_|\_\  \___/  |___|
+ #       by fernanACM                            
+
+Prefix: "§l§7[§bNickUI§7]§8»§r "
+
+
+#MESSAGES - NICKUI
+Nick-Existen: "§l§cSorry!§r§7 But you cannot change your name, because your name is already normal."
+
+Nick-Normal: "§aYour name is now normal."
+
+Nick-New: "§aYour name is now:§e "
+
+#FORM MESSAGE - NICKUI
+Nick-Content: "§7Change your nickname discreetly\n§7Your nickname is:§a "
+
+Content-Normal: "§7Change your nickname discreetly\n\n§7You don't have §c§lany§r§7 nickname."
+
+Button-Nick: "§l§3Create a new nickname\n§r§0click to open"
+Button-Reset: "§l§4Remove nickname\n§r§0click to open"
+Button-HideNick: "§l§6Hide your name\n§r§0click to open"
+Button-Exit: "§c§lEXIT\n§r§0close menu"
+
+Input: "§7Here you can type your custom nickname:"
+
+#MESSAGES - HIDEUI
+Hide-Enable: "§7Your name has§a faded"
+
+Hide-Disable: "§7Your name is now§c visible"
+
+#FORM MESSAGE - HIDEUI
+Button-Enable: "§l§2Enable\n§r§0hide name"
+Button-Disable: "§l§4Disable\n§r§0display name"
+Button-Exit: "§c§lEXIT\n§r§0close menu"
+
