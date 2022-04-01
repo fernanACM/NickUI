@@ -10,6 +10,7 @@
 ### Elements
 * You can change the text via the 'config.yml' file. 
 * Funny sounds.
+* Random nicknames
 
 ### Config 
 ```yaml
