@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Vecnavium\FormsUI;
+namespace fernanACM\NickUI\libs\Vecnavium\FormsUI;
 
 class CustomForm extends Form {
 
