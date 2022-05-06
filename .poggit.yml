@@ -7,6 +7,6 @@ projects:
     path: ""
     icon: icon.png
  ​   ​libs​: 
- ​      - ​src​: ​Vecnavium/FormsUI/FormsUI 
- ​        ​version​: ​^1.0.0
+ ​     - ​src​: ​Vecnavium/FormsUI/FormsUI 
+ ​       ​version​: ​^1.0.0
 ...
