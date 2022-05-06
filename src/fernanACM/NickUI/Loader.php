@@ -13,8 +13,9 @@ use pocketmine\event\Listener;
 
 use pocketmine\utils\Config;
 
-use fernanACM\NickUI\libs\Vecnavium\FormsUI\SimpleForm;
-use fernanACM\NickUI\libs\Vecnavium\FormsUI\CustomForm;
+use Vecnavium\FormsUI\SimpleForm;
+use Vecnavium\FormsUI\CustomForm;
+
 use fernanACM\NickUI\Utils\PluginUtils;
 use fernanACM\NickUI\commands\NickCommand;
 /**use fernanACM\NickUI\commands\HideCommand;*/
