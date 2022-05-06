@@ -6,7 +6,7 @@ projects:
   NickUI:
     path: ""
     icon: icon.png
- ​   ​lib​: 
- ​     - ​src​: ​Vecnavium/FormsUI/FormsUI 
- ​       ​version​: ​^1.0.0
+ ​  libs: 
+ ​    - src: Vecnavium/FormsUI/FormsUI 
+ ​      version: ^1.0.0
 ...
