@@ -66,7 +66,7 @@
 ### 🕹 Commands
 - ```/nickui``` > Open NickUI
 - ```/nickui help``` > Command list
-- ```/nickui set` <nick>`` > Change your nick with one command
+- ```/nickui set <nickname>``` > Change your nick with one command
 - ```/nickui random``` > Change your name to a random nick with one command
 - ```/nickui reset``` > Return your nick to normal with one command
 
