@@ -51,11 +51,10 @@ class Loader extends PluginBase implements Listener {
 		$player = $event->getPlayer();
 		if(!$this->nick->exists($name)){
 			return true;
-		}
-		if($this->nick->exists($name)){
+		} else {
 		   $this->nick->remove($name);
 		   $this->nick->save();
-		    return true;
+		   return true;
 		}
 	}
     
@@ -78,9 +77,8 @@ class Loader extends PluginBase implements Listener {
 						    $player->sendMessage($this->config->get("Prefix") . $this->config->get("Nick-Existen"));
 						    PluginUtils::PlaySound($player, "mob.villager.no", 1, 1);
 						    return true;
-					    }
-					    if($this->nick->exists($player->getName())){
-						   $player->setNameTag($this->nick->getNested($player->getName() . ".normal-name"));
+					    } else {
+					           $player->setNameTag($this->nick->getNested($player->getName() . ".normal-name"));
 						   $player->setDisplayName($this->nick->getNested($player->getName() . ".normal-name"));
 						   $this->nick->remove($player->getName());
 						   $this->nick->save();
