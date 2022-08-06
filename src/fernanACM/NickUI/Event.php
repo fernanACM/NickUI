@@ -27,30 +27,30 @@ class Event implements Listener{
         $player = $event->getPlayer();
         $name = $player->getName();
         if(!Loader::getInstance()->nick->exists($player->getName())){
-			    return true;
-		    }else{
-		      Loader::getInstance()->nick->remove($player->getName());
-		      return true;
-		    }
+			return true;
+		}else{
+		   Loader::getInstance()->nick->remove($player->getName());
+		   return true;
+		}
     }
     
     public function onQuit(PlayerQuitEvent $event){
         $player = $event->getPlayer();
         if(!Loader::getInstance()->nick->exists($player->getName())){
-			     return true;
-		    }else{
-		      Loader::getInstance()->nick->remove($player->getName());
-		      return true;
-		    }
-	  }
+			return true;
+		}else{
+		   Loader::getInstance()->nick->remove($player->getName());
+		   return true;
+		}
+	}
     
     public function onLogin(PlayerLoginEvent $event){
         $player = $event->getPlayer();
         if(!Loader::getInstance()->nick->exists($player->getName())){
-			     return true;
-		    }else{
-		       Loader::getInstance()->nick->remove($player->getName());
-		        return true;
-		    }
+			return true;
+		}else{
+		   Loader::getInstance()->nick->remove($player->getName());
+		   return true;
+		}
     }
 }
