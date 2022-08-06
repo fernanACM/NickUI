@@ -9,4 +9,11 @@ projects:
     libs:
       - src: Vecnavium/FormsUI/FormsUI
         version: ^1.0.0
+      - src: CortexPE/Commando/Commando
+        version:  ^3.0.0
+        branch: PM4
+      - src: muqsit/simplepackethandler/SimplePacketHandler
+        version: ^0.0.1
+    lint:
+      phpstan: false
 ...
