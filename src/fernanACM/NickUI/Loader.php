@@ -57,6 +57,9 @@ class Loader extends PluginBase{
                 return;
             }
         }
+        if (!PacketHooker::isRegistered()) {
+            PacketHooker::register($this);
+        }
     }
     
     public function loadForms(){
