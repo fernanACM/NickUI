@@ -60,3 +60,4 @@ Messages:
     # Use the brace {NICK} to see his nickname.
     nick-success: "{GREEN}Its nick has been changed, it is now called: {YELLOW}{NICK}{GREEN}."
     not-allowed-nick: "{RED}This nick is not allowed. Please try another."
+    error-line: "{RED}You have not completed your nickname, please try again."
