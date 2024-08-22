@@ -1,7 +1,7 @@
 name: NickUI
-main: fernanACM\NickUI\Loader
-version: 1.2.0
-api: 4.0.0
+main: fernanACM\NickUI\NickUI
+version: 2.0.0
+api: 5.3.0
 author: fernanACM
 description: A simple nickname user interface that is easy to customize by fernanACM
 website: https://github.com/fernanACM
